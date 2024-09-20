@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "tangara-mlds-unal-2024"
+version = "0.1.0"
+description = "Tángara: Proyecto Aplicado del Diplomado en Machine Learning and Data Science de la Universidad Nacional de Colombia - 2024"
+authors = ["Sebastian Rios Sabogal <sebaxtianrioss@gmail.com>"]
+license = "GLP-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+numpy = "^2.1.0"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+rlxcrypt = "^0.0.4"
+img2pdf = "^0.5.1"
+python-dotenv = "^1.0.1"
+importnb = "^2023.11.1"
+loguru = "^0.7.2"
+geohash2 = "^1.1"
+babel = "^2.16.0"
+holidays = "^0.56"
+
+[tool.poetry.group.dev.dependencies]
+loguru = "^0.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
